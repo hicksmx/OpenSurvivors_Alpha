@@ -1,0 +1,38 @@
+{
+    "BAT": {
+        "difficulty": 1,
+        "speed": 100,
+        "health": 10,
+        "size": 15,
+        "color": "0x885588",
+        "expValue": 1,
+        "collision": true
+    },
+    "SLIME": {
+        "difficulty": 1,
+        "speed": 75,
+        "health": 15,
+        "size": 20,
+        "color": "0x22AA22",
+        "expValue": 2,
+        "collision": true
+    },
+    "GHOST": {
+        "difficulty": 1,
+        "speed": 150,
+        "health": 25,
+        "size": 18,
+        "color": "0xCCCCFF",
+        "expValue": 5,
+        "collision": false
+    },
+    "DEMON": {
+        "difficulty": 10,
+        "speed": 200,
+        "health": 100,
+        "size": 35,
+        "color": "0xFF0000",
+        "expValue": 100,
+        "collision": true
+    }
+}

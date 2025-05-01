@@ -1,0 +1,24 @@
+{
+    "FIREBALL": {
+        "name": "Fireball",
+        "description": "Launch a fireball",
+        "active": true,
+        "maxLevel": 5,
+        "cooldown": 1000,
+        "attackDuration": 500,
+        "levelStats": {
+            "damage": [10, 15, 20, 25, 30],
+            "size": [1, 1.2, 1.4, 1.6, 1.8]
+        }
+    },
+    "GARLIC": {
+        "name": "Garlic",
+        "description": "Damages nearby enemies",
+        "active": false,
+        "maxLevel": 3,
+        "levelStats": {
+            "damage": [5, 8, 12],
+            "radius": [50, 75, 100]
+        }
+    }
+}

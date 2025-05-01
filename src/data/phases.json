@@ -1,0 +1,14 @@
+{
+    "spawnInterval": 500,
+    "maxEnemies": 100,
+    "phases": [
+        {
+            "startTime": 0,
+            "endTime": 30,
+            "difficultyRange": [1],
+            "phaseEndEvent": {
+                "difficulty": 10
+            }
+        }
+    ]
+}
